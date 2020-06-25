@@ -1,0 +1,8 @@
++-------------------------------------+
+|                                     |
+|           Unix Cheatsheet           |
+|                                     |
++-------------------------------------+
+
+" Give user execute permissions for file
+chmod +x $filename

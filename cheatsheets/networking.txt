@@ -1,0 +1,37 @@
++-------------------------------------+
+|                                     |
+|         Networking Cheatsheet       |
+|                                     |
++-------------------------------------+
+
+" Get local IP address
+ifconfig en0
+
+" Get public IP address
+curl https://ipinfo.io/ip
+
+" Perform DNS lookup for host
+dig example.com
+nslookup example.com
+
+" Print the route packets take to a host
+traceroute example.com
+
+" Connect to destination host:port via telnet protocol
+telnet example.com 443
+
+" Show network connections and open sockets
+netstat
+
+" Copy files to and from remote host
+scp $filename user@targethost:/$path
+
+" Print a summary of current system activity for each user
+w (Yes just `w`)
+
+" Enable and disable network interfaces
+#ifup etho0
+#ifdown eth0
+
+" Add rules to iptablej
+iptables -I INPUT -s 192.51.100.0 -j DROP (This would drop all packets from the address)

@@ -1,0 +1,65 @@
++-------------------------------------+
+|                                     |
+|         Tooling Masterlist          |
+|                                     |
++-------------------------------------+
+
+This file exists to be a compiled list of all tools I have come in contact with 
+throughout my developer career. It will serve as a directory for the tools I have at my 
+disposal and how comfortable I am with each tool. There is very likely a file named after 
+that tool in this directory with more in depth information about that tool.
+
+
+Dev Environment
+----------------------------------------------------------------------
+- Zsh         (Terminal)
+- Prezto      (Config Framework for Zsh)
+- Tmux        (Window/Pane Management)
+- NeoVim      (CLI Text Editor)
+- VS Code     (Text Editor)
+- Mac OS      (Operating System)
+
+
+Developer Tooling (DevOps)
+----------------------------------------------------------------------
+- TravisCI    (Continuous Deployment)
+- Kuberenetes (Infastructure Management)
+  - K3        (Kuberenetes for ARM based architechtures)
+  - Kubectl   (Kuberenetes CLI tool)
+  - Kubeadm   (Kubernetes bootstrap tool)
+- Heroku      (Hosting Provider)
+
+
+Productivity Tools
+----------------------------------------------------------------------
+- Slack       (Chat-based Communications)
+- Gmail       (Email Client)
+- GCal        (Digital Calendar)
+- Zoom        (Video Conferencing)
+
+
+Security Tools
+----------------------------------------------------------------------
+- Keybase     (Encrypted Chat)
+- Protonmail  (Encrypted Email)
+
+
+Languages / Frameworks (Comfort Scale = 1 (Familiar) - 5 (Comfortable)
+----------------------------------------------------------------------
+- Java        (Very rusty learned in college)     3
+- C / C++     (Minimal from college)              2
+- Lisp / Scheme (Minimal from college)            1
+- Python                                          2
+- Ruby                                            5
+- Javascript                                      5
+- Elixir                                          4
+- SQL         (Postgres, Mysql)                   5
+- Ruby on Rails                                   5
+- Nodejs                                          4
+- Phoenix     (Elixir MVC)                        4
+- Jekyll      (Ruby Blog)                         4
+- Codeigniter                                     3
+- Reactjs                                         5
+- React Native                                    3
+- Phonegap/Cordova                                3
+- jQuery                                          4
