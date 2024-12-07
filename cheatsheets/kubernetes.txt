@@ -8,3 +8,7 @@
 kubectl logs -f deployment/<deployment> --all-containers=true --since=10m -n <namespace>
 
 
+## Remote shell
+kubectl exec -it <pod_name> --namespace <namespace> --insecure-skip-tls-verify -- bash
+
+
