@@ -4,3 +4,7 @@
 |                                     |
 +-------------------------------------+
 
+## Get Logs
+kubectl logs -f deployment/<deployment> --all-containers=true --since=10m -n <namespace>
+
+
